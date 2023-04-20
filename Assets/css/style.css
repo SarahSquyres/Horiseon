@@ -10,25 +10,25 @@ body {
 
 /* Horizon Header 
 -----------------------------------------*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Horizon Word Formatting
+/* Horizon Text Formatting
 -----------------------------------------*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6; 
 }
 
-/* Header Menu 
+/* Header Links 
 -----------------------------------------*/
 .header-list {
     padding-top: 15px;
@@ -37,10 +37,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    display: inline-block;
     margin-left: 25px;
-    width: 70%;
     text-align: right;
+}
+
+.header-list li{
+    display: inline-block;
 }
 
 a {
@@ -148,13 +150,13 @@ p {
 
 /* Horiseon Footer 
 -----------------------------------------*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
